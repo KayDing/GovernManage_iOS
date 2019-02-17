@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F32ABCE22196BED00047DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32ABCD22196BED00047DFE /* AppDelegate.m */; };
+		2F32ABD122196BED00047DFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32ABD022196BED00047DFE /* ViewController.m */; };
+		2F32ABD422196BED00047DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F32ABD222196BED00047DFE /* Main.storyboard */; };
+		2F32ABD622196BEE00047DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F32ABD522196BEE00047DFE /* Assets.xcassets */; };
+		2F32ABD922196BEE00047DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F32ABD722196BEE00047DFE /* LaunchScreen.storyboard */; };
+		2F32ABDC22196BEE00047DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32ABDB22196BEE00047DFE /* main.m */; };
+		2F32ABE622196BEE00047DFE /* GovernManage_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32ABE522196BEE00047DFE /* GovernManage_iOSTests.m */; };
+		2F32ABF122196BEE00047DFE /* GovernManage_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32ABF022196BEE00047DFE /* GovernManage_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F32ABE222196BEE00047DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F32ABC122196BED00047DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F32ABC822196BED00047DFE;
+			remoteInfo = GovernManage_iOS;
+		};
+		2F32ABED22196BEE00047DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F32ABC122196BED00047DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F32ABC822196BED00047DFE;
+			remoteInfo = GovernManage_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F32ABC922196BED00047DFE /* GovernManage_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovernManage_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F32ABCC22196BED00047DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F32ABCD22196BED00047DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F32ABCF22196BED00047DFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F32ABD022196BED00047DFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F32ABD322196BED00047DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F32ABD522196BEE00047DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F32ABD822196BEE00047DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F32ABDA22196BEE00047DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F32ABDB22196BEE00047DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F32ABE122196BEE00047DFE /* GovernManage_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovernManage_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F32ABE522196BEE00047DFE /* GovernManage_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GovernManage_iOSTests.m; sourceTree = "<group>"; };
+		2F32ABE722196BEE00047DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F32ABEC22196BEE00047DFE /* GovernManage_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovernManage_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F32ABF022196BEE00047DFE /* GovernManage_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GovernManage_iOSUITests.m; sourceTree = "<group>"; };
+		2F32ABF222196BEE00047DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F32ABC622196BED00047DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32ABDE22196BEE00047DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32ABE922196BEE00047DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F32ABC022196BED00047DFE = {
+			isa = PBXGroup;
+			children = (
+				2F32ABCB22196BED00047DFE /* GovernManage_iOS */,
+				2F32ABE422196BEE00047DFE /* GovernManage_iOSTests */,
+				2F32ABEF22196BEE00047DFE /* GovernManage_iOSUITests */,
+				2F32ABCA22196BED00047DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F32ABCA22196BED00047DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F32ABC922196BED00047DFE /* GovernManage_iOS.app */,
+				2F32ABE122196BEE00047DFE /* GovernManage_iOSTests.xctest */,
+				2F32ABEC22196BEE00047DFE /* GovernManage_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F32ABCB22196BED00047DFE /* GovernManage_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F32ABCC22196BED00047DFE /* AppDelegate.h */,
+				2F32ABCD22196BED00047DFE /* AppDelegate.m */,
+				2F32ABCF22196BED00047DFE /* ViewController.h */,
+				2F32ABD022196BED00047DFE /* ViewController.m */,
+				2F32ABD222196BED00047DFE /* Main.storyboard */,
+				2F32ABD522196BEE00047DFE /* Assets.xcassets */,
+				2F32ABD722196BEE00047DFE /* LaunchScreen.storyboard */,
+				2F32ABDA22196BEE00047DFE /* Info.plist */,
+				2F32ABDB22196BEE00047DFE /* main.m */,
+			);
+			path = GovernManage_iOS;
+			sourceTree = "<group>";
+		};
+		2F32ABE422196BEE00047DFE /* GovernManage_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F32ABE522196BEE00047DFE /* GovernManage_iOSTests.m */,
+				2F32ABE722196BEE00047DFE /* Info.plist */,
+			);
+			path = GovernManage_iOSTests;
+			sourceTree = "<group>";
+		};
+		2F32ABEF22196BEE00047DFE /* GovernManage_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F32ABF022196BEE00047DFE /* GovernManage_iOSUITests.m */,
+				2F32ABF222196BEE00047DFE /* Info.plist */,
+			);
+			path = GovernManage_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F32ABC822196BED00047DFE /* GovernManage_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F32ABF522196BEE00047DFE /* Build configuration list for PBXNativeTarget "GovernManage_iOS" */;
+			buildPhases = (
+				2F32ABC522196BED00047DFE /* Sources */,
+				2F32ABC622196BED00047DFE /* Frameworks */,
+				2F32ABC722196BED00047DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GovernManage_iOS;
+			productName = GovernManage_iOS;
+			productReference = 2F32ABC922196BED00047DFE /* GovernManage_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F32ABE022196BEE00047DFE /* GovernManage_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F32ABF822196BEE00047DFE /* Build configuration list for PBXNativeTarget "GovernManage_iOSTests" */;
+			buildPhases = (
+				2F32ABDD22196BEE00047DFE /* Sources */,
+				2F32ABDE22196BEE00047DFE /* Frameworks */,
+				2F32ABDF22196BEE00047DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F32ABE322196BEE00047DFE /* PBXTargetDependency */,
+			);
+			name = GovernManage_iOSTests;
+			productName = GovernManage_iOSTests;
+			productReference = 2F32ABE122196BEE00047DFE /* GovernManage_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F32ABEB22196BEE00047DFE /* GovernManage_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F32ABFB22196BEE00047DFE /* Build configuration list for PBXNativeTarget "GovernManage_iOSUITests" */;
+			buildPhases = (
+				2F32ABE822196BEE00047DFE /* Sources */,
+				2F32ABE922196BEE00047DFE /* Frameworks */,
+				2F32ABEA22196BEE00047DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F32ABEE22196BEE00047DFE /* PBXTargetDependency */,
+			);
+			name = GovernManage_iOSUITests;
+			productName = GovernManage_iOSUITests;
+			productReference = 2F32ABEC22196BEE00047DFE /* GovernManage_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F32ABC122196BED00047DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "丁磊";
+				TargetAttributes = {
+					2F32ABC822196BED00047DFE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2F32ABE022196BEE00047DFE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F32ABC822196BED00047DFE;
+					};
+					2F32ABEB22196BEE00047DFE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F32ABC822196BED00047DFE;
+					};
+				};
+			};
+			buildConfigurationList = 2F32ABC422196BED00047DFE /* Build configuration list for PBXProject "GovernManage_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F32ABC022196BED00047DFE;
+			productRefGroup = 2F32ABCA22196BED00047DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F32ABC822196BED00047DFE /* GovernManage_iOS */,
+				2F32ABE022196BEE00047DFE /* GovernManage_iOSTests */,
+				2F32ABEB22196BEE00047DFE /* GovernManage_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F32ABC722196BED00047DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F32ABD922196BEE00047DFE /* LaunchScreen.storyboard in Resources */,
+				2F32ABD622196BEE00047DFE /* Assets.xcassets in Resources */,
+				2F32ABD422196BED00047DFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32ABDF22196BEE00047DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32ABEA22196BEE00047DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F32ABC522196BED00047DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F32ABD122196BED00047DFE /* ViewController.m in Sources */,
+				2F32ABDC22196BEE00047DFE /* main.m in Sources */,
+				2F32ABCE22196BED00047DFE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32ABDD22196BEE00047DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F32ABE622196BEE00047DFE /* GovernManage_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32ABE822196BEE00047DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F32ABF122196BEE00047DFE /* GovernManage_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F32ABE322196BEE00047DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F32ABC822196BED00047DFE /* GovernManage_iOS */;
+			targetProxy = 2F32ABE222196BEE00047DFE /* PBXContainerItemProxy */;
+		};
+		2F32ABEE22196BEE00047DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F32ABC822196BED00047DFE /* GovernManage_iOS */;
+			targetProxy = 2F32ABED22196BEE00047DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F32ABD222196BED00047DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F32ABD322196BED00047DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F32ABD722196BEE00047DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F32ABD822196BEE00047DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F32ABF322196BEE00047DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F32ABF422196BEE00047DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F32ABF622196BEE00047DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GovernManage_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dinglei.GovernManage-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F32ABF722196BEE00047DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GovernManage_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dinglei.GovernManage-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F32ABF922196BEE00047DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GovernManage_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dinglei.GovernManage-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GovernManage_iOS.app/GovernManage_iOS";
+			};
+			name = Debug;
+		};
+		2F32ABFA22196BEE00047DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GovernManage_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dinglei.GovernManage-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GovernManage_iOS.app/GovernManage_iOS";
+			};
+			name = Release;
+		};
+		2F32ABFC22196BEE00047DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GovernManage_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dinglei.GovernManage-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GovernManage_iOS;
+			};
+			name = Debug;
+		};
+		2F32ABFD22196BEE00047DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GovernManage_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dinglei.GovernManage-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GovernManage_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F32ABC422196BED00047DFE /* Build configuration list for PBXProject "GovernManage_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F32ABF322196BEE00047DFE /* Debug */,
+				2F32ABF422196BEE00047DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F32ABF522196BEE00047DFE /* Build configuration list for PBXNativeTarget "GovernManage_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F32ABF622196BEE00047DFE /* Debug */,
+				2F32ABF722196BEE00047DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F32ABF822196BEE00047DFE /* Build configuration list for PBXNativeTarget "GovernManage_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F32ABF922196BEE00047DFE /* Debug */,
+				2F32ABFA22196BEE00047DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F32ABFB22196BEE00047DFE /* Build configuration list for PBXNativeTarget "GovernManage_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F32ABFC22196BEE00047DFE /* Debug */,
+				2F32ABFD22196BEE00047DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F32ABC122196BED00047DFE /* Project object */;
+}
