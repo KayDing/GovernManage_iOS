@@ -7,16 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "ZYLTabBarController.h"
+//#import "ZYLRootViewController.h"
+//#import "ZYLServiceViewController.h"
+//#import "ZYLPersonalViewController.h"
+
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) ZYLTabBarController *tabBarController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor clearColor];
+    
+    self.tabBarController = [[ZYLTabBarController alloc] init];
+    self.window.rootViewController = self.tabBarController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
